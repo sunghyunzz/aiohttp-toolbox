@@ -19,7 +19,7 @@ setup(
     zip_safe=False,
     platforms='any',
     install_requires=[
-        'aiohttp',
+        'aiohttp>2',
         'ujson>=1.34'
     ],
     classifiers=[
