@@ -8,7 +8,7 @@ from setuptools import setup
 
 setup(
     name='aiohttp-ultrajson',
-    version='0.0.1',
+    version='0.1.0',
     url='https://github.com/sunghyunzz/aiohttp-ultrajson',
     license='MIT',
     author='sunghyunzz',
@@ -23,11 +23,14 @@ setup(
         'ujson>=1.34'
     ],
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT License',
         'Intended Audience :: Developers',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5'
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Topic :: Internet :: WWW/HTTP',
+        'Framework :: AsyncIO'
     ]
 )
